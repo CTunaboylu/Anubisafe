@@ -10,44 +10,39 @@ _debug = True
 def chassis_f():
     if _debug:
         print("Chassis ")
-    cmd_dmi = "sudo dmidecode -t 3 | grep Manufacturer"
-    manu = list(cmd_dmi.split(" "))
-    os.system(cmd_dmi)
-    cmd_dmi = "sudo dmidecode -t 3 | grep Serial" 
-    serial = list(cmd_dmi.split(" "))
-    os.system(cmd_dmi)
-    cmd_dmi = "sudo dmidecode -t 3 | grep SKU" 
-    sku = list(cmd_dmi.split(" "))
-    os.system(cmd_dmi)
-    return manu
+    base = "sudo dmidecode -t 3 | grep"
+    manu = "Manufacturer"
+    #manu = list(cmd_dmi.split(" "))
+    serial = "Serial" 
+    sku = "SKU" 
+    base = list(base.split(" "))
+    return base, manu, serial, sku
 
 def system_info():
     if _debug:
         print("System information ")
-    cmd_dmi = "sudo dmidecode -t 1 | grep Serial"
-    serial = list(cmd_dmi.split(" "))
-    print(serial)
-    os.system(cmd_dmi)
-    cmd_dmi = "sudo dmidecode -t 1 | grep UUID"
-    os.system(cmd_dmi)
-    cmd_dmi = "sudo dmidecode -t 1 | grep SKU"
-    os.system(cmd_dmi)
-    return serial
+    base = "sudo dmidecode -t 1 | grep"
+    serial = "Serial"
+    uuid = "UUID"
+    sku = "SKU"
+    base = list(base.split(" "))
+    return base, serial, uuid, sku
 def base_board_f():
     if _debug:
         print("base board f")
-    cmd_dmi = "sudo dmidecode -t 2 | grep Product"
-    os.system(cmd_dmi)
-    cmd_dmi = "sudo dmidecode -t 2 | grep Version"
-    os.system(cmd_dmi)
-    cmd_dmi = "sudo dmidecode -t 2 | grep Serial"
-    os.system(cmd_dmi)
-
+    base = "sudo dmidecode -t 2 | grep"
+    pro = "Product"
+    v = "Version"
+    serial = "Serial"
+    base = list(base.split(" "))
+    return base, pro, v, serial
+""" TO BE COMPLETED """    
 def processor_f():
     if _debug:
         print("proc f")
-    cmd_dmi = "sudo dmidecode -t 4 | grep Core"
-    os.system(cmd_dmi)
+    base = "sudo dmidecode -t 4 | grep"
+    core ="Core"
+    return base, core
 def sys_slots():
     cmd_dmi = "sudo dmidecode -t 9"#Bus address
     os.system(cmd_dmi)
@@ -55,6 +50,7 @@ def sys_slots():
 def OEM_strings():
     cmd_dmi = "sudo dmidecode -t 11"# Identify?
     os.system(cmd_dmi)
+
 """
 cmd_dmi = "sudo  dmidecode -t " + sys.argv[1]
 os.system(cmd_dmi)
@@ -73,13 +69,15 @@ print("cmdif finished")
 #print(platform.processor())
 
 def all_f():
-    chassis = subprocess.Popen(chassis_f(), stdout=subprocess.PIPE)
-    chas_out, chas_err = chassis.communicate()
+    an = chassis_f()
+    chas_out = list()
+    for o in an:
+        chassis = subprocess.Popen(an[1], stdout=subprocess.PIPE)
+        out, chas_err = chassis.communicate()
     if chas_err == None:
         print("Chass_err ", chas_err)
         print("Chassis\n", chas_out)
 
-    #chassis_f()
     system_info()
     base_board_f()
     processor_f()
