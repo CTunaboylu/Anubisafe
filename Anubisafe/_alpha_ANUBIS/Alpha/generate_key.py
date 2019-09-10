@@ -11,12 +11,17 @@ def chassis_f():
     if _debug:
         print("Chassis ")
     base = "sudo dmidecode -t 3 | grep"
-    manu = "Manufacturer"
-    #manu = list(cmd_dmi.split(" "))
+    m = "'Manufacturer|Serial|SKU'"
+    """ manu = "Manufacturer"
     serial = "Serial" 
     sku = "SKU" 
     base = list(base.split(" "))
-    return base, manu, serial, sku
+    base.append(manu)
+    base.append(serial)
+    base.append(sku)"""
+    base = list(base.split(" "))
+    base.append(m)
+    return base
 
 def system_info():
     if _debug:
@@ -74,9 +79,9 @@ def all_f():
     for o in an:
         chassis = subprocess.Popen(an[1], stdout=subprocess.PIPE)
         out, chas_err = chassis.communicate()
-    if chas_err == None:
-        print("Chass_err ", chas_err)
-        print("Chassis\n", chas_out)
+        if chas_err == None:
+            print("Chass_err ", chas_err)
+            print("Chassis\n", out)
 
     system_info()
     base_board_f()
