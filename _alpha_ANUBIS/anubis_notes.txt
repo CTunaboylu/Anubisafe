@@ -1,0 +1,35 @@
+# platform:python -> take argv give it to c++  
+#things that are computationally infeasible or unsafe will be handled in c++ 
+# mutation can be done via python also for prototyping 
+# hilbert curve?
+# curves will also be implemented in C++ -> openmp 
+# zip-unzip 
+# zip the real key via google's pseudo-random generator sequence? - give only 1 key to the user 
+
+
+
+#Why curves? : a 256-bit elliptic curve private key is as secure as a 3072-bit RSA private key
+# curve anatomy :  y ** 2 = x ** 3 + ax +b AND 4a³+27b² ≠ 0 to avoid singular points.
+
+// domain parameters : a and b 
+class Curve {
+
+# hashing the public key
+
+#Caution! : Minimize if else statements -> vulnarability like RSA via Branch Prediction Attack - Intel does not handle it on its processors   
+private:
+// domain parameters 
+int a,b;
+
+bool avoid_singularity(int, int);
+
+
+public:
+
+
+}
+
+Add intelligent selection to the codes rather than arguments for user-friendliness 
+delete the file permanently - check for harddisk deletion! 
+remove(argv[0]);
+remove(argv[1]);

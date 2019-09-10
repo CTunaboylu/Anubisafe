@@ -1,0 +1,8 @@
+				TO DO 
+- Makefile for python 
+- Measure encryption / decryption speeds with 100MB standard 
+- If speed is suboptimal : C + OpenMP
+- Lifetime control 
+- Permanent deletion 
+- Digestion 
+- Terminal side - animation ???
