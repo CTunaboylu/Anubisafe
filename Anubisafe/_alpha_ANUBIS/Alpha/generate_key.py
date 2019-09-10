@@ -79,9 +79,9 @@ def all_f():
     for o in an:
         chassis = subprocess.Popen(an[1], stdout=subprocess.PIPE)
         out, chas_err = chassis.communicate()
+        chas_out.append(out)
         if chas_err == None:
-            print("Chass_err ", chas_err)
-            print("Chassis\n", out)
+            print("Chassis\n", chas_out)
 
     system_info()
     base_board_f()
