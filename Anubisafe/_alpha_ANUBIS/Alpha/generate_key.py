@@ -2,29 +2,25 @@
 # MAC+IP+num_cpu+CPU_IDs+
 # another script for configuration is necessary to config the host pc 
 
-import platform, subprocess, os 
+import platform, os 
 import dmidecode
-import sys, subprocess
-_debug = True
+import subprocess
+__verbose = True
 
 def chassis_f():
-    if _debug:
-        print("Chassis ")
-    base = "sudo dmidecode -t 3 | grep"
-    m = "'Manufacturer|Serial|SKU'"
-    """ manu = "Manufacturer"
-    serial = "Serial" 
-    sku = "SKU" 
-    base = list(base.split(" "))
-    base.append(manu)
-    base.append(serial)
-    base.append(sku)"""
-    base = list(base.split(" "))
-    base.append(m)
-    return base
+    if __verbose:
 
+        print("Chassis Function calling... ")
+    l = ["Manufacturer", "Serial", "SKU"]
+    data = list()
+    for i in range(3):
+        job = subprocess.Popen(["sudo", "dmidecode", "-t", "3","|grep", l[i]], stdout=subprocess.PIPE)
+        out, err = job.communicate()
+        if err == None:
+            data.append(out)
+    return data
 def system_info():
-    if _debug:
+    if __verbose:
         print("System information ")
     base = "sudo dmidecode -t 1 | grep"
     serial = "Serial"
@@ -33,9 +29,9 @@ def system_info():
     base = list(base.split(" "))
     return base, serial, uuid, sku
 def base_board_f():
-    if _debug:
+    if __verbose:
         print("base board f")
-    base = "sudo dmidecode -t 2 | grep"
+    base = "sudo dmidecode -t 2 |grep"
     pro = "Product"
     v = "Version"
     serial = "Serial"
@@ -43,7 +39,7 @@ def base_board_f():
     return base, pro, v, serial
 """ TO BE COMPLETED """    
 def processor_f():
-    if _debug:
+    if __verbose:
         print("proc f")
     base = "sudo dmidecode -t 4 | grep"
     core ="Core"
@@ -74,18 +70,10 @@ print("cmdif finished")
 #print(platform.processor())
 
 def all_f():
-    an = chassis_f()
-    chas_out = list()
-    for o in an:
-        chassis = subprocess.Popen(an[1], stdout=subprocess.PIPE)
-        out, chas_err = chassis.communicate()
-        chas_out.append(out)
-        if chas_err == None:
-            print("Chassis\n", chas_out)
+    print(chassis_f())
+    #system_info()
+    #base_board_f()
+    #processor_f()
 
-    system_info()
-    base_board_f()
-    processor_f()
-
-
-all_f()
+print(type(dmidecode.get_by_type(3)[0]))
+#all_f()
