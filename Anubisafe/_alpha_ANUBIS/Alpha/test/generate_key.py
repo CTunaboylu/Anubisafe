@@ -25,13 +25,17 @@ def compare_files():
                 print(os.path.join("./", f))
     same = None
     out = open('analysis.txt', 'w')
+    d = open('uniques.txt', 'w')
     with open( txts[0], 'r') as file_one:
         with open( txts[1], 'r') as file_two:
             same = set(file_one).intersection(file_two)
             same.discard('\n')
+            diff = set(file_one).symmetric_difference(file_two)
+            diff.discard('\n')
             for line in same:
                 out.write(line)
-
+            for line in diff:
+                d.write(line)
             
 def type_1_system_information():
     if __verbose:
@@ -186,11 +190,8 @@ def check_for_new():
         if i == 0:
             continue
         print(dmidecode.get_by_type(int(sys.argv[i])))
-os.system('pip install -r requirements.txt')
+print('pip install py-dmidecode')
 n = sys.argv[-1]
-ex_file = __fname
 __fname += n
-generate_the_unique_key()
-__fname = ex_file + sys.argv[-2]
 generate_the_unique_key()
 compare_files()
