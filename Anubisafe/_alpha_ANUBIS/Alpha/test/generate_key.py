@@ -186,7 +186,7 @@ def check_for_new():
         if i == 0:
             continue
         print(dmidecode.get_by_type(int(sys.argv[i])))
-
+os.system('pip install -r requirements.txt')
 n = sys.argv[-1]
 ex_file = __fname
 __fname += n

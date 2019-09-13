@@ -1,0 +1,490 @@
+D1ZK2T2
+4C4C4544-0031-5A10-804B-C4C04F325432
+085B
+/D1ZK2T2/CNWS2008AH01R1/
+0J8G6F
+A02
+Dell Inc.
+D1ZK2T2
+1
+Desktop
+Type 0, Family 6, Model 158, Stepping 10
+Socket LGA1151
+Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+100 MHz
+6
+12
+EA 06 09 00 FF FB EB BF
+0000:ff:1f.7
+Dell System
+1[085B]
+3[1.0]
+12[www.dell.com]
+14[1]
+15[3]
+27[28418359862]
+15
+35
+System Event Log
+4 bytes
+0x0000
+2 bytes
+0x0002
+Indexed I/O, one 16-bit index port, one 8-bit data port
+Index 0x046A, Data 0x046C
+Invalid, Not Full
+0x00000000
+No Header
+6
+End of log
+OEM-specific
+End of log
+OEM-specific
+End of log
+OEM-specific
+End of log
+OEM-specific
+End of log
+OEM-specific
+End of log
+OEM-specific
+DMIType:1
+DMISize:27
+DMIName:System Information
+Manufacturer:Dell Inc.
+Product Name:OptiPlex 5060
+Version:Not Specified
+Serial Number:D1ZK2T2
+UUID:4C4C4544-0031-5A10-804B-C4C04F325432
+Wake-up Type:Power Switch
+SKU Number:085B
+Family:OptiPlex
+DMIType:2
+DMISize:15
+DMIName:Base Board Information
+Manufacturer:Dell Inc.
+Product Name:0J8G6F
+Version:A02
+Serial Number:/D1ZK2T2/CNWS2008AH01R1/
+Asset Tag:Not Specified
+Location In Chassis:Not Specified
+Chassis Handle:0x0003
+Type:Motherboard
+Contained Object Handles:0
+DMIType:3
+DMISize:22
+DMIName:Chassis Information
+Manufacturer:Dell Inc.
+Type:Desktop
+Lock:Not Present
+Version:Not Specified
+Serial Number:D1ZK2T2
+Asset Tag:Not Specified
+Boot-up State:Safe
+Power Supply State:Safe
+Thermal State:Safe
+Security Status:None
+OEM Information:0x00000000
+Height:Unspecified
+Number Of Power Cords:1
+Contained Elements:0
+SKU Number:Desktop
+DMIType:4
+DMISize:48
+DMIName:Processor Information
+Socket Designation:U3E1
+Type:Central Processor
+Family:Core i7
+Manufacturer:Intel(R) Corporation
+ID:EA 06 09 00 FF FB EB BF
+Signature:Type 0, Family 6, Model 158, Stepping 10
+Version:Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+Voltage:1.0 V
+External Clock:100 MHz
+Max Speed:4200 MHz
+Current Speed:3168 MHz
+Status:Populated, Enabled
+Upgrade:Socket LGA1151
+L1 Cache Handle:0x0014
+L2 Cache Handle:0x0015
+L3 Cache Handle:0x0016
+Serial Number:Not Specified
+Asset Tag:Not Specified
+Part Number:Not Specified
+Core Count:6
+Core Enabled:6
+Thread Count:12
+DMIType:9
+DMISize:17
+DMIName:System Slot Information
+Designation:SLOT1
+Type:x1 PCI Express
+Current Usage:Available
+Length:Short
+ID:1
+Bus Address:0000:ff:1f.7
+DMIType:11
+DMISize:5
+DMIName:OEM Strings
+String 1:Dell System
+String 2:1[085B]
+String 3:3[1.0]
+String 4:12[www.dell.com]
+String 5:14[1]
+String 6:15[3]
+String 7:27[28418359862]
+DMIType:15
+DMISize:35
+DMIName:System Event Log
+Area Length:4 bytes
+Header Start Offset:0x0000
+Header Length:2 bytes
+Data Start Offset:0x0002
+Access Method:Indexed I/O, one 16-bit index port, one 8-bit data port
+Access Address:Index 0x046A, Data 0x046C
+Status:Invalid, Not Full
+Change Token:0x00000000
+Header Format:No Header
+Supported Log Type Descriptors:6
+Descriptor 1:End of log
+Data Format 1:OEM-specific
+Descriptor 2:End of log
+Data Format 2:OEM-specific
+Descriptor 3:End of log
+Data Format 3:OEM-specific
+Descriptor 4:End of log
+Data Format 4:OEM-specific
+Descriptor 5:End of log
+Data Format 5:OEM-specific
+Descriptor 6:End of log
+Data Format 6:OEM-specific
+DMIType:1
+DMISize:27
+DMIName:System Information
+Manufacturer:Dell Inc.
+Product Name:OptiPlex 5060
+Version:Not Specified
+Serial Number:D1ZK2T2
+UUID:4C4C4544-0031-5A10-804B-C4C04F325432
+Wake-up Type:Power Switch
+SKU Number:085B
+Family:OptiPlex
+DMIType:2
+DMISize:15
+DMIName:Base Board Information
+Manufacturer:Dell Inc.
+Product Name:0J8G6F
+Version:A02
+Serial Number:/D1ZK2T2/CNWS2008AH01R1/
+Asset Tag:Not Specified
+Location In Chassis:Not Specified
+Chassis Handle:0x0003
+Type:Motherboard
+Contained Object Handles:0
+DMIType:3
+DMISize:22
+DMIName:Chassis Information
+Manufacturer:Dell Inc.
+Type:Desktop
+Lock:Not Present
+Version:Not Specified
+Serial Number:D1ZK2T2
+Asset Tag:Not Specified
+Boot-up State:Safe
+Power Supply State:Safe
+Thermal State:Safe
+Security Status:None
+OEM Information:0x00000000
+Height:Unspecified
+Number Of Power Cords:1
+Contained Elements:0
+SKU Number:Desktop
+DMIType:4
+DMISize:48
+DMIName:Processor Information
+Socket Designation:U3E1
+Type:Central Processor
+Family:Core i7
+Manufacturer:Intel(R) Corporation
+ID:EA 06 09 00 FF FB EB BF
+Signature:Type 0, Family 6, Model 158, Stepping 10
+Version:Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+Voltage:1.0 V
+External Clock:100 MHz
+Max Speed:4200 MHz
+Current Speed:3168 MHz
+Status:Populated, Enabled
+Upgrade:Socket LGA1151
+L1 Cache Handle:0x0014
+L2 Cache Handle:0x0015
+L3 Cache Handle:0x0016
+Serial Number:Not Specified
+Asset Tag:Not Specified
+Part Number:Not Specified
+Core Count:6
+Core Enabled:6
+Thread Count:12
+DMIType:9
+DMISize:17
+DMIName:System Slot Information
+Designation:SLOT1
+Type:x1 PCI Express
+Current Usage:Available
+Length:Short
+ID:1
+Bus Address:0000:ff:1f.7
+DMIType:11
+DMISize:5
+DMIName:OEM Strings
+String 1:Dell System
+String 2:1[085B]
+String 3:3[1.0]
+String 4:12[www.dell.com]
+String 5:14[1]
+String 6:15[3]
+String 7:27[28418359862]
+DMIType:15
+DMISize:35
+DMIName:System Event Log
+Area Length:4 bytes
+Header Start Offset:0x0000
+Header Length:2 bytes
+Data Start Offset:0x0002
+Access Method:Indexed I/O, one 16-bit index port, one 8-bit data port
+Access Address:Index 0x046A, Data 0x046C
+Status:Invalid, Not Full
+Change Token:0x00000000
+Header Format:No Header
+Supported Log Type Descriptors:6
+Descriptor 1:End of log
+Data Format 1:OEM-specific
+Descriptor 2:End of log
+Data Format 2:OEM-specific
+Descriptor 3:End of log
+Data Format 3:OEM-specific
+Descriptor 4:End of log
+Data Format 4:OEM-specific
+Descriptor 5:End of log
+Data Format 5:OEM-specific
+Descriptor 6:End of log
+Data Format 6:OEM-specific
+DMIType:1
+DMISize:27
+DMIName:System Information
+Manufacturer:Dell Inc.
+Product Name:OptiPlex 5060
+Version:Not Specified
+Serial Number:D1ZK2T2
+UUID:4C4C4544-0031-5A10-804B-C4C04F325432
+Wake-up Type:Power Switch
+SKU Number:085B
+Family:OptiPlex
+DMIType:2
+DMISize:15
+DMIName:Base Board Information
+Manufacturer:Dell Inc.
+Product Name:0J8G6F
+Version:A02
+Serial Number:/D1ZK2T2/CNWS2008AH01R1/
+Asset Tag:Not Specified
+Location In Chassis:Not Specified
+Chassis Handle:0x0003
+Type:Motherboard
+Contained Object Handles:0
+DMIType:3
+DMISize:22
+DMIName:Chassis Information
+Manufacturer:Dell Inc.
+Type:Desktop
+Lock:Not Present
+Version:Not Specified
+Serial Number:D1ZK2T2
+Asset Tag:Not Specified
+Boot-up State:Safe
+Power Supply State:Safe
+Thermal State:Safe
+Security Status:None
+OEM Information:0x00000000
+Height:Unspecified
+Number Of Power Cords:1
+Contained Elements:0
+SKU Number:Desktop
+DMIType:4
+DMISize:48
+DMIName:Processor Information
+Socket Designation:U3E1
+Type:Central Processor
+Family:Core i7
+Manufacturer:Intel(R) Corporation
+ID:EA 06 09 00 FF FB EB BF
+Signature:Type 0, Family 6, Model 158, Stepping 10
+Version:Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+Voltage:1.0 V
+External Clock:100 MHz
+Max Speed:4200 MHz
+Current Speed:3168 MHz
+Status:Populated, Enabled
+Upgrade:Socket LGA1151
+L1 Cache Handle:0x0014
+L2 Cache Handle:0x0015
+L3 Cache Handle:0x0016
+Serial Number:Not Specified
+Asset Tag:Not Specified
+Part Number:Not Specified
+Core Count:6
+Core Enabled:6
+Thread Count:12
+DMIType:9
+DMISize:17
+DMIName:System Slot Information
+Designation:SLOT1
+Type:x1 PCI Express
+Current Usage:Available
+Length:Short
+ID:1
+Bus Address:0000:ff:1f.7
+DMIType:11
+DMISize:5
+DMIName:OEM Strings
+String 1:Dell System
+String 2:1[085B]
+String 3:3[1.0]
+String 4:12[www.dell.com]
+String 5:14[1]
+String 6:15[3]
+String 7:27[28418359862]
+DMIType:15
+DMISize:35
+DMIName:System Event Log
+Area Length:4 bytes
+Header Start Offset:0x0000
+Header Length:2 bytes
+Data Start Offset:0x0002
+Access Method:Indexed I/O, one 16-bit index port, one 8-bit data port
+Access Address:Index 0x046A, Data 0x046C
+Status:Invalid, Not Full
+Change Token:0x00000000
+Header Format:No Header
+Supported Log Type Descriptors:6
+Descriptor 1:End of log
+Data Format 1:OEM-specific
+Descriptor 2:End of log
+Data Format 2:OEM-specific
+Descriptor 3:End of log
+Data Format 3:OEM-specific
+Descriptor 4:End of log
+Data Format 4:OEM-specific
+Descriptor 5:End of log
+Data Format 5:OEM-specific
+Descriptor 6:End of log
+Data Format 6:OEM-specific
+DMIType:1
+DMISize:27
+DMIName:System Information
+Manufacturer:Dell Inc.
+Product Name:OptiPlex 5060
+Version:Not Specified
+Serial Number:D1ZK2T2
+UUID:4C4C4544-0031-5A10-804B-C4C04F325432
+Wake-up Type:Power Switch
+SKU Number:085B
+Family:OptiPlex
+DMIType:2
+DMISize:15
+DMIName:Base Board Information
+Manufacturer:Dell Inc.
+Product Name:0J8G6F
+Version:A02
+Serial Number:/D1ZK2T2/CNWS2008AH01R1/
+Asset Tag:Not Specified
+Location In Chassis:Not Specified
+Chassis Handle:0x0003
+Type:Motherboard
+Contained Object Handles:0
+DMIType:3
+DMISize:22
+DMIName:Chassis Information
+Manufacturer:Dell Inc.
+Type:Desktop
+Lock:Not Present
+Version:Not Specified
+Serial Number:D1ZK2T2
+Asset Tag:Not Specified
+Boot-up State:Safe
+Power Supply State:Safe
+Thermal State:Safe
+Security Status:None
+OEM Information:0x00000000
+Height:Unspecified
+Number Of Power Cords:1
+Contained Elements:0
+SKU Number:Desktop
+DMIType:4
+DMISize:48
+DMIName:Processor Information
+Socket Designation:U3E1
+Type:Central Processor
+Family:Core i7
+Manufacturer:Intel(R) Corporation
+ID:EA 06 09 00 FF FB EB BF
+Signature:Type 0, Family 6, Model 158, Stepping 10
+Version:Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+Voltage:1.0 V
+External Clock:100 MHz
+Max Speed:4200 MHz
+Current Speed:3168 MHz
+Status:Populated, Enabled
+Upgrade:Socket LGA1151
+L1 Cache Handle:0x0014
+L2 Cache Handle:0x0015
+L3 Cache Handle:0x0016
+Serial Number:Not Specified
+Asset Tag:Not Specified
+Part Number:Not Specified
+Core Count:6
+Core Enabled:6
+Thread Count:12
+DMIType:9
+DMISize:17
+DMIName:System Slot Information
+Designation:SLOT1
+Type:x1 PCI Express
+Current Usage:Available
+Length:Short
+ID:1
+Bus Address:0000:ff:1f.7
+DMIType:11
+DMISize:5
+DMIName:OEM Strings
+String 1:Dell System
+String 2:1[085B]
+String 3:3[1.0]
+String 4:12[www.dell.com]
+String 5:14[1]
+String 6:15[3]
+String 7:27[28418359862]
+DMIType:15
+DMISize:35
+DMIName:System Event Log
+Area Length:4 bytes
+Header Start Offset:0x0000
+Header Length:2 bytes
+Data Start Offset:0x0002
+Access Method:Indexed I/O, one 16-bit index port, one 8-bit data port
+Access Address:Index 0x046A, Data 0x046C
+Status:Invalid, Not Full
+Change Token:0x00000000
+Header Format:No Header
+Supported Log Type Descriptors:6
+Descriptor 1:End of log
+Data Format 1:OEM-specific
+Descriptor 2:End of log
+Data Format 2:OEM-specific
+Descriptor 3:End of log
+Data Format 3:OEM-specific
+Descriptor 4:End of log
+Data Format 4:OEM-specific
+Descriptor 5:End of log
+Data Format 5:OEM-specific
+Descriptor 6:End of log
+Data Format 6:OEM-specific
