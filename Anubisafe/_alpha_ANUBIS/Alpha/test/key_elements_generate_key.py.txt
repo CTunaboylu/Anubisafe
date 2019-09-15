@@ -1,0 +1,330 @@
+DMIType:1
+DMISize:27
+DMIName:System Information
+Manufacturer:Apple Inc.
+Product Name:MacBookPro12,1
+Version:1.0
+Serial Number:C02PW1NXFVH5
+UUID:C928F3E8-EB63-5FC1-AF11-88264B69A849
+Wake-up Type:Power Switch
+SKU Number: 
+Family:MacBook Pro
+DMIType:2
+DMISize:17
+DMIName:Base Board Information
+Manufacturer:Apple Inc.
+Product Name:Mac-E43C1C25D4880AD6
+Version:MacBookPro12,1
+Serial Number:C02518406DXGDVQ1X
+Asset Tag: 
+Location In Chassis: 
+Chassis Handle:0x0008
+Type:Motherboard
+Contained Object Handles:0
+DMIType:3
+DMISize:24
+DMIName:Chassis Information
+Manufacturer:Apple Inc.
+Type:Laptop
+Lock:Not Present
+Version:Mac-E43C1C25D4880AD6
+Serial Number:C02PW1NXFVH5
+Asset Tag: 
+Boot-up State:Safe
+Power Supply State:Safe
+Thermal State:Safe
+Security Status:None
+OEM Information:0x00000000
+Height:Unspecified
+Number Of Power Cords:Unspecified
+Contained Elements:0
+SKU Number:Not Specified
+DMIType:4
+DMISize:42
+DMIName:Processor Information
+Socket Designation:U3E1
+Type:Central Processor
+Family:Core i5
+Manufacturer:Intel(R) Corporation
+ID:D4 06 03 00 FF FB EB BF
+Signature:Type 0, Family 6, Model 61, Stepping 4
+Version:Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
+Voltage:1.0 V
+External Clock:25 MHz
+Max Speed:2700 MHz
+Current Speed:3100 MHz
+Status:Populated, Enabled
+Upgrade:Socket BGA1168
+L1 Cache Handle:0x0001
+L2 Cache Handle:0x0002
+L3 Cache Handle:0x0003
+Serial Number: 
+Asset Tag: 
+Part Number: 
+Core Count:2
+Core Enabled:2
+Thread Count:4
+DMIType:1
+DMISize:27
+DMIName:System Information
+Manufacturer:Apple Inc.
+Product Name:MacBookPro12,1
+Version:1.0
+Serial Number:C02PW1NXFVH5
+UUID:C928F3E8-EB63-5FC1-AF11-88264B69A849
+Wake-up Type:Power Switch
+SKU Number: 
+Family:MacBook Pro
+DMIType:2
+DMISize:17
+DMIName:Base Board Information
+Manufacturer:Apple Inc.
+Product Name:Mac-E43C1C25D4880AD6
+Version:MacBookPro12,1
+Serial Number:C02518406DXGDVQ1X
+Asset Tag: 
+Location In Chassis: 
+Chassis Handle:0x0008
+Type:Motherboard
+Contained Object Handles:0
+DMIType:3
+DMISize:24
+DMIName:Chassis Information
+Manufacturer:Apple Inc.
+Type:Laptop
+Lock:Not Present
+Version:Mac-E43C1C25D4880AD6
+Serial Number:C02PW1NXFVH5
+Asset Tag: 
+Boot-up State:Safe
+Power Supply State:Safe
+Thermal State:Safe
+Security Status:None
+OEM Information:0x00000000
+Height:Unspecified
+Number Of Power Cords:Unspecified
+Contained Elements:0
+SKU Number:Not Specified
+DMIType:4
+DMISize:42
+DMIName:Processor Information
+Socket Designation:U3E1
+Type:Central Processor
+Family:Core i5
+Manufacturer:Intel(R) Corporation
+ID:D4 06 03 00 FF FB EB BF
+Signature:Type 0, Family 6, Model 61, Stepping 4
+Version:Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
+Voltage:1.0 V
+External Clock:25 MHz
+Max Speed:2700 MHz
+Current Speed:3100 MHz
+Status:Populated, Enabled
+Upgrade:Socket BGA1168
+L1 Cache Handle:0x0001
+L2 Cache Handle:0x0002
+L3 Cache Handle:0x0003
+Serial Number: 
+Asset Tag: 
+Part Number: 
+Core Count:2
+Core Enabled:2
+Thread Count:4
+DMIType:1
+DMISize:27
+DMIName:System Information
+Manufacturer:Apple Inc.
+Product Name:MacBookPro12,1
+Version:1.0
+Serial Number:C02PW1NXFVH5
+UUID:C928F3E8-EB63-5FC1-AF11-88264B69A849
+Wake-up Type:Power Switch
+SKU Number: 
+Family:MacBook Pro
+DMIType:2
+DMISize:17
+DMIName:Base Board Information
+Manufacturer:Apple Inc.
+Product Name:Mac-E43C1C25D4880AD6
+Version:MacBookPro12,1
+Serial Number:C02518406DXGDVQ1X
+Asset Tag: 
+Location In Chassis: 
+Chassis Handle:0x0008
+Type:Motherboard
+Contained Object Handles:0
+DMIType:3
+DMISize:24
+DMIName:Chassis Information
+Manufacturer:Apple Inc.
+Type:Laptop
+Lock:Not Present
+Version:Mac-E43C1C25D4880AD6
+Serial Number:C02PW1NXFVH5
+Asset Tag: 
+Boot-up State:Safe
+Power Supply State:Safe
+Thermal State:Safe
+Security Status:None
+OEM Information:0x00000000
+Height:Unspecified
+Number Of Power Cords:Unspecified
+Contained Elements:0
+SKU Number:Not Specified
+DMIType:4
+DMISize:42
+DMIName:Processor Information
+Socket Designation:U3E1
+Type:Central Processor
+Family:Core i5
+Manufacturer:Intel(R) Corporation
+ID:D4 06 03 00 FF FB EB BF
+Signature:Type 0, Family 6, Model 61, Stepping 4
+Version:Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
+Voltage:1.0 V
+External Clock:25 MHz
+Max Speed:2700 MHz
+Current Speed:3100 MHz
+Status:Populated, Enabled
+Upgrade:Socket BGA1168
+L1 Cache Handle:0x0001
+L2 Cache Handle:0x0002
+L3 Cache Handle:0x0003
+Serial Number: 
+Asset Tag: 
+Part Number: 
+Core Count:2
+Core Enabled:2
+Thread Count:4
+DMIType:1
+DMISize:27
+DMIName:System Information
+Manufacturer:Apple Inc.
+Product Name:MacBookPro12,1
+Version:1.0
+Serial Number:C02PW1NXFVH5
+UUID:C928F3E8-EB63-5FC1-AF11-88264B69A849
+Wake-up Type:Power Switch
+SKU Number: 
+Family:MacBook Pro
+DMIType:2
+DMISize:17
+DMIName:Base Board Information
+Manufacturer:Apple Inc.
+Product Name:Mac-E43C1C25D4880AD6
+Version:MacBookPro12,1
+Serial Number:C02518406DXGDVQ1X
+Asset Tag: 
+Location In Chassis: 
+Chassis Handle:0x0008
+Type:Motherboard
+Contained Object Handles:0
+DMIType:3
+DMISize:24
+DMIName:Chassis Information
+Manufacturer:Apple Inc.
+Type:Laptop
+Lock:Not Present
+Version:Mac-E43C1C25D4880AD6
+Serial Number:C02PW1NXFVH5
+Asset Tag: 
+Boot-up State:Safe
+Power Supply State:Safe
+Thermal State:Safe
+Security Status:None
+OEM Information:0x00000000
+Height:Unspecified
+Number Of Power Cords:Unspecified
+Contained Elements:0
+SKU Number:Not Specified
+DMIType:4
+DMISize:42
+DMIName:Processor Information
+Socket Designation:U3E1
+Type:Central Processor
+Family:Core i5
+Manufacturer:Intel(R) Corporation
+ID:D4 06 03 00 FF FB EB BF
+Signature:Type 0, Family 6, Model 61, Stepping 4
+Version:Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
+Voltage:1.0 V
+External Clock:25 MHz
+Max Speed:2700 MHz
+Current Speed:3100 MHz
+Status:Populated, Enabled
+Upgrade:Socket BGA1168
+L1 Cache Handle:0x0001
+L2 Cache Handle:0x0002
+L3 Cache Handle:0x0003
+Serial Number: 
+Asset Tag: 
+Part Number: 
+Core Count:2
+Core Enabled:2
+Thread Count:4
+DMIType:1
+DMISize:27
+DMIName:System Information
+Manufacturer:Apple Inc.
+Product Name:MacBookPro12,1
+Version:1.0
+Serial Number:C02PW1NXFVH5
+UUID:C928F3E8-EB63-5FC1-AF11-88264B69A849
+Wake-up Type:Power Switch
+SKU Number: 
+Family:MacBook Pro
+DMIType:2
+DMISize:17
+DMIName:Base Board Information
+Manufacturer:Apple Inc.
+Product Name:Mac-E43C1C25D4880AD6
+Version:MacBookPro12,1
+Serial Number:C02518406DXGDVQ1X
+Asset Tag: 
+Location In Chassis: 
+Chassis Handle:0x0008
+Type:Motherboard
+Contained Object Handles:0
+DMIType:3
+DMISize:24
+DMIName:Chassis Information
+Manufacturer:Apple Inc.
+Type:Laptop
+Lock:Not Present
+Version:Mac-E43C1C25D4880AD6
+Serial Number:C02PW1NXFVH5
+Asset Tag: 
+Boot-up State:Safe
+Power Supply State:Safe
+Thermal State:Safe
+Security Status:None
+OEM Information:0x00000000
+Height:Unspecified
+Number Of Power Cords:Unspecified
+Contained Elements:0
+SKU Number:Not Specified
+DMIType:4
+DMISize:42
+DMIName:Processor Information
+Socket Designation:U3E1
+Type:Central Processor
+Family:Core i5
+Manufacturer:Intel(R) Corporation
+ID:D4 06 03 00 FF FB EB BF
+Signature:Type 0, Family 6, Model 61, Stepping 4
+Version:Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
+Voltage:1.0 V
+External Clock:25 MHz
+Max Speed:2700 MHz
+Current Speed:3100 MHz
+Status:Populated, Enabled
+Upgrade:Socket BGA1168
+L1 Cache Handle:0x0001
+L2 Cache Handle:0x0002
+L3 Cache Handle:0x0003
+Serial Number: 
+Asset Tag: 
+Part Number: 
+Core Count:2
+Core Enabled:2
+Thread Count:4

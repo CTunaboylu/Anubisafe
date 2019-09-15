@@ -1,0 +1,26 @@
+Contained Elements:0
+Security Status:None
+Status:Populated, Enabled
+Wake-up Type:Power Switch
+DMIType:4
+DMIType:2
+DMIType:3
+Contained Object Handles:0
+DMIName:Processor Information
+Manufacturer:Intel(R) Corporation
+Type:Central Processor
+Voltage:1.0 V
+Boot-up State:Safe
+Socket Designation:U3E1
+Lock:Not Present
+OEM Information:0x00000000
+Type:Motherboard
+Height:Unspecified
+DMISize:17
+DMIName:Base Board Information
+DMISize:27
+DMIName:System Information
+Thermal State:Safe
+DMIName:Chassis Information
+Power Supply State:Safe
+DMIType:1
