@@ -1,4 +1,4 @@
-cryptography==2.1.4
+cryptography>=2.3
 h5py==2.9.0
 intel.tracecli==1.1919.135
 ipaddress==1.0.17
@@ -13,7 +13,6 @@ Pillow==5.1.0
 protobuf==3.9.1
 ptyprocess==0.6.0
 py-dmidecode==0.0.2
-pycrypto==2.6.1
 Pygments==2.2.0
 pygobject==3.26.1
 pyOpenSSL==17.5.0
