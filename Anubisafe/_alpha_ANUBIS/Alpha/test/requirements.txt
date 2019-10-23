@@ -9,7 +9,7 @@ MarkupSafe==1.0
 numpy==1.16.5
 olefile==0.45.1
 pexpect==4.7.0
-Pillow==5.1.0
+Pillow==6.2.0
 protobuf==3.9.1
 ptyprocess==0.6.0
 py-dmidecode==0.0.2
